@@ -103,7 +103,12 @@ h3 {
     
 }
 
+
+
 @media (max-width: 550px) {
 
-    
+    .image-container {
+        display:flex;
+    flex-direction: column;
+    }
 }
