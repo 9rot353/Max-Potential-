@@ -1,5 +1,9 @@
-.logo {
+body {
+    margin: 0px;
+    background-color: black;
+}
 
+.logo {
 width: 90px;
 height: 90px;
 margin-left: 50px;
