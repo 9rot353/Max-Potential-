@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: black;
+    background-color:;
 }
 
 .logo {
@@ -103,3 +103,7 @@ h3 {
     
 }
 
+@media (max-width: 550px) {
+
+    
+}
