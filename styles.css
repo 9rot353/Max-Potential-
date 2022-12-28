@@ -50,6 +50,9 @@ a {
     
 }
 
+.project {
+    text-align: center;
+}
 .title-container {
     display:flex;
     width: 100%;
@@ -59,31 +62,30 @@ a {
 .title {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 30%;
+    margin:;
+    width: 85%;
     text-align: center;
     height:auto;
     border-top: solid #0D4B6E 2px;
     border-bottom:solid #0D4B6E 4px;
+    
     margin-bottom: 10px;
    
     
 }
 
-.image-container {
-    display:flex;
-    flex-direction: row;
-    width: 100%;
-    text-align:center;
-}
-
 .shrink {
-    width:30%;
-    margin:auto;
+    width:85%;
     height:150px
 }
 
 
+
+
+.middle {
+    text-align:left;
+    border: 2px solid black;
+}
 footer {
     text-align:center;
     background-color:#3D3D3D;
@@ -105,9 +107,10 @@ h3 {
 
 
 
+
 @media (max-width: 550px) {
 
-    .image-container {
+    .project {
         display:flex;
     flex-direction: column;
     }
