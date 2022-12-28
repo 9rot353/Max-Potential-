@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color:;
+    text-align:center;
 }
 
 .logo {
@@ -50,11 +50,22 @@ a {
     
 }
 
+main {
+    
+}
+.projects-container {
+    text-align:center;
+    border: 2px solid red;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .project {
     text-align: center;
 }
 .title-container {
-    display:flex;
+   
     width: 100%;
     text-align:center;
 }
@@ -62,7 +73,6 @@ a {
 .title {
     display: flex;
     flex-direction: column;
-    margin:;
     width: 85%;
     text-align: center;
     height:auto;
